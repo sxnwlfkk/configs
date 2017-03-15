@@ -1,1 +1,0 @@
-/home/cs/Dropbox/config-backups/home/terminal-control.sh

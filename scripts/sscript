@@ -1,1 +1,17 @@
-/home/cs/Dropbox/config-backups/scripts/sscript
+#!/bin/zsh
+
+# Makes a shellscript in ~/bin with the first parameter as name.
+# Adds #!/bin/zsh to the front and makes it executable, and opens it in vim.
+
+sscript () {
+
+	home="/home/cs/bin"
+	name=$1
+	touch $home/$name
+	echo "#!/bin/zsh" > $home/$name
+	chmod u+x $home/$name
+	vim $home/$name
+
+}
+
+sscript $1

@@ -1,1 +1,8 @@
-/home/cs/Dropbox/config-backups/home/.newsbeuterrc
+# Should be in ~/.newsbeuter/config, so symlink it that way
+
+always-display-description true
+browser "w3m %u"
+confirm-exit yes
+text-width 80
+color info blue black bold
+color listfocus white blue bold
